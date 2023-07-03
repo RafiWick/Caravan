@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caravan", "Caravan\Caravan.csproj", "{0EBACD3B-372C-4A0B-A08A-3C1FDF1B66C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaravanTests", "CaravanTests\CaravanTests.csproj", "{A24A8DCA-267A-4A94-A860-8AE9321C6A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0EBACD3B-372C-4A0B-A08A-3C1FDF1B66C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EBACD3B-372C-4A0B-A08A-3C1FDF1B66C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EBACD3B-372C-4A0B-A08A-3C1FDF1B66C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24A8DCA-267A-4A94-A860-8AE9321C6A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24A8DCA-267A-4A94-A860-8AE9321C6A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24A8DCA-267A-4A94-A860-8AE9321C6A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24A8DCA-267A-4A94-A860-8AE9321C6A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
