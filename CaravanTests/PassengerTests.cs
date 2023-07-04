@@ -11,8 +11,8 @@ namespace Caravan.Tests
             string wagonName = "Black betty";
             int wagonNumWheels = 6;
             bool wagonIsCovered = true;
-            // var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered)
-            var testPassenger = new Passenger(name, age, destination/*, wagon */);
+            var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered);
+            var testPassenger = new Passenger(name, age, destination, wagon);
 
             Assert.Equal(name, testPassenger.Name);
         }
@@ -25,8 +25,8 @@ namespace Caravan.Tests
             string wagonName = "Black betty";
             int wagonNumWheels = 6;
             bool wagonIsCovered = true;
-            // var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered)
-            var testPassenger = new Passenger(name, age, destination/*, wagon */);
+            var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered);
+            var testPassenger = new Passenger(name, age, destination, wagon);
 
             Assert.Equal(age, testPassenger.Age);
         }
@@ -39,12 +39,12 @@ namespace Caravan.Tests
             string wagonName = "Black betty";
             int wagonNumWheels = 6;
             bool wagonIsCovered = true;
-            // var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered)
-            var testPassenger = new Passenger(name, age, destination/*, wagon */);
+            var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered);
+            var testPassenger = new Passenger(name, age, destination, wagon);
 
             Assert.Equal(destination, testPassenger.Destination);
         }
-        /*
+        
         [Fact]
         public void Passenger_Constructor_CreatesPassengerObjectWithCorrectWagon()
         {
@@ -54,11 +54,11 @@ namespace Caravan.Tests
             string wagonName = "Black betty";
             int wagonNumWheels = 6;
             bool wagonIsCovered = true;
-            // var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered)
-            var testPassenger = new Passenger(name, age, destination/*, wagon );
+            var wagon = new Wagon(wagonName, wagonNumWheels, wagonIsCovered);
+            var testPassenger = new Passenger(name, age, destination, wagon );
 
-            Assert.IsEqual(name, testPassenger.Name);
+            Assert.Equal(wagon, testPassenger.Wagon);
         }
-        */
+        
     }
 }

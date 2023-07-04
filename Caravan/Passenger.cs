@@ -11,14 +11,14 @@ namespace Caravan
         public string Name;
         public int Age;
         public string Destination;
-        //public Wagon Wagon;
+        public Wagon Wagon;
         
-        public Passenger(string name, int age, string destination/*, Wagon wagon*/)
+        public Passenger(string name, int age, string destination, Wagon wagon)
         {
             Name = name;
             Age = age;
             Destination = destination;
-            //Wagon = wagon;
+            Wagon = wagon;
         }
     }
 }
