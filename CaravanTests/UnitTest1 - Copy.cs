@@ -1,4 +1,4 @@
-namespace CaravanTests
+namespace Caravan.Tests
 {
     public class UnitTest1
     {
